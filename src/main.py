@@ -1,6 +1,6 @@
 import telebot  # telegram-bot API
 
-# open file with key
+# open file with key will be added later
 key_value = 'will be added'
 bot = telebot.TeleBot(key_value)
 
