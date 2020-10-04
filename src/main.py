@@ -1,7 +1,8 @@
 import telebot  # telegram-bot API
 
-# open file with key will be added later
-key_value = 'will be added'
+# read key from txt file
+f = open('/home/snfn/PycharmProjects/keys/telegram_key')
+key_value = str(f.read()).rstrip()
 bot = telebot.TeleBot(key_value)
 
 # keyboard config
